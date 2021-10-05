@@ -25,6 +25,9 @@
 		767A854E270B6D07003C7A43 /* CachableUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A854D270B6D07003C7A43 /* CachableUIImageView.swift */; };
 		767A8553270B869B003C7A43 /* BeerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A8552270B869B003C7A43 /* BeerDetailsVC.swift */; };
 		767A8559270B927A003C7A43 /* BeerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A8558270B927A003C7A43 /* BeerDetailViewModel.swift */; };
+		768E1406270C22EE001EFBAD /* TestBearDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E1405270C22EE001EFBAD /* TestBearDetail.swift */; };
+		768E1408270C24CF001EFBAD /* TestDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E1407270C24CF001EFBAD /* TestDetailViewModel.swift */; };
+		768E140A270C2B00001EFBAD /* FakeBeer.json in Resources */ = {isa = PBXBuildFile; fileRef = 768E1409270C2B00001EFBAD /* FakeBeer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		767A854D270B6D07003C7A43 /* CachableUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachableUIImageView.swift; sourceTree = "<group>"; };
 		767A8552270B869B003C7A43 /* BeerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsVC.swift; sourceTree = "<group>"; };
 		767A8558270B927A003C7A43 /* BeerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewModel.swift; sourceTree = "<group>"; };
+		768E1405270C22EE001EFBAD /* TestBearDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBearDetail.swift; sourceTree = "<group>"; };
+		768E1407270C24CF001EFBAD /* TestDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailViewModel.swift; sourceTree = "<group>"; };
+		768E1409270C2B00001EFBAD /* FakeBeer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FakeBeer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				767A851C270AF9F1003C7A43 /* BearShopTests.swift */,
+				768E1405270C22EE001EFBAD /* TestBearDetail.swift */,
+				768E1407270C24CF001EFBAD /* TestDetailViewModel.swift */,
 			);
 			path = BearShopTests;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 		767A8536270B13B5003C7A43 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				768E1409270C2B00001EFBAD /* FakeBeer.json */,
 				767A8544270B5732003C7A43 /* Data+Extension.swift */,
 				767A854D270B6D07003C7A43 /* CachableUIImageView.swift */,
 			);
@@ -309,6 +318,7 @@
 				767A8512270AF9F1003C7A43 /* LaunchScreen.storyboard in Resources */,
 				767A850F270AF9F1003C7A43 /* Assets.xcassets in Resources */,
 				767A850D270AF9EE003C7A43 /* Main.storyboard in Resources */,
+				768E140A270C2B00001EFBAD /* FakeBeer.json in Resources */,
 				767A854B270B5F0F003C7A43 /* BeerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768E1408270C24CF001EFBAD /* TestDetailViewModel.swift in Sources */,
+				768E1406270C22EE001EFBAD /* TestBearDetail.swift in Sources */,
 				767A851D270AF9F1003C7A43 /* BearShopTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
