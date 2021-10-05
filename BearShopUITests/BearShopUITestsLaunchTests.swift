@@ -1,13 +1,13 @@
 //
-//  BearShopUITestsLaunchTests.swift
-//  BearShopUITests
+//  BeerShopUITestsLaunchTests.swift
+//  BeerShopUITests
 //
 //  Created by Sushobhit.Jain on 04/10/21.
 //
 
 import XCTest
 
-class BearShopUITestsLaunchTests: XCTestCase {
+class BeerShopUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

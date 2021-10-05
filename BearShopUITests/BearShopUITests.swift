@@ -1,13 +1,13 @@
 //
-//  BearShopUITests.swift
-//  BearShopUITests
+//  BeerShopUITests.swift
+//  BeerShopUITests
 //
 //  Created by Sushobhit.Jain on 04/10/21.
 //
 
 import XCTest
 
-class BearShopUITests: XCTestCase {
+class BeerShopUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
